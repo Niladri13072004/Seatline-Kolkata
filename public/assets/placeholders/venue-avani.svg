@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Avani Riverside cinema editorial placeholder</title>
+  <desc id="description">Original editorial illustration of a riverside cinema facade at sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#1c2832"/><stop offset=".58" stop-color="#a36048"/><stop offset="1" stop-color="#e0ae6f"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#283b44"/><stop offset="1" stop-color="#090e12"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".6" numOctaves="3" seed="21"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .1 0"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1260" cy="230" r="105" fill="#f0cc8c" opacity=".73"/>
+  <path d="M0 650h1600v250H0Z" fill="url(#water)"/>
+  <path d="M230 638V245h980l160 113v280Z" fill="#202022"/>
+  <path d="M230 245h980l160 113H430Z" fill="#5a222b"/>
+  <path d="M430 358h940v280H430Z" fill="#aa8b6c"/>
+  <g fill="#1b252a">
+    <rect x="480" y="405" width="160" height="233"/><rect x="680" y="405" width="160" height="233"/>
+    <rect x="880" y="405" width="160" height="233"/><rect x="1080" y="405" width="160" height="233"/>
+  </g>
+  <path d="M0 735c210-54 381 38 582 0s363-41 563 3 325 4 455-23" fill="none" stroke="#d7b57a" stroke-opacity=".45" stroke-width="6"/>
+  <path d="M0 800c224-45 383 29 583 0s364-33 556 2 326 8 461-17" fill="none" stroke="#a6babe" stroke-opacity=".22" stroke-width="4"/>
+  <g fill="#111719">
+    <circle cx="150" cy="575" r="105"/><rect x="137" y="575" width="26" height="128"/>
+    <circle cx="1450" cy="570" r="116"/><rect x="1436" y="570" width="28" height="140"/>
+  </g>
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>

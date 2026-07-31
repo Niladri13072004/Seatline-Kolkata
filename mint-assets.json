@@ -1,0 +1,211 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public/assets/mint",
+  "assets": {
+    "auditorium-pack": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "asset_pack",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {}
+    },
+    "mythic-sea-poster": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "the-salt-crown.svg",
+          "localPath": "public/assets/placeholders/the-salt-crown.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    },
+    "venue-nandan": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "venue-nandan.svg",
+          "localPath": "public/assets/placeholders/venue-nandan.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    },
+    "venue-rdb": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "venue-rdb.svg",
+          "localPath": "public/assets/placeholders/venue-rdb.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    },
+    "venue-south-city": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "venue-south-city.svg",
+          "localPath": "public/assets/placeholders/venue-south-city.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    },
+    "venue-quest": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "venue-quest.svg",
+          "localPath": "public/assets/placeholders/venue-quest.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    },
+    "venue-avani": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "venue-avani.svg",
+          "localPath": "public/assets/placeholders/venue-avani.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    },
+    "venue-cinepolis-lake": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "local_placeholder",
+        "assetType": "image",
+        "reason": "mint_downloads_disabled"
+      },
+      "transform": {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1]
+      },
+      "mode": "local_placeholders",
+      "placeholder": true,
+      "artifacts": {
+        "placeholder_image": {
+          "artifactId": "placeholder_image",
+          "role": "image_file",
+          "format": "svg",
+          "contentType": "image/svg+xml",
+          "filename": "venue-cinepolis-lake.svg",
+          "localPath": "public/assets/placeholders/venue-cinepolis-lake.svg",
+          "loaderHint": "texture",
+          "placeholder": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "order": 181,
+  "slug": "seatline-kolkata",
+  "title": "Seatline Kolkata",
+  "description": "Choose a Kolkata-area cinema, showtime, and seat, then inspect its modeled 3D sightline before opening the venue listing.",
+  "status": "draft",
+  "tags": ["Three.js", "Next.js", "Seat Preview", "Kolkata"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build an original Kolkata cinema seat-preview experience with measured 3D sightlines.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Auditorium shells, projection screens, recliners, and aisle fixtures."
+      },
+      {
+        "kind": "image",
+        "brief": "Original mythic sea poster art and six venue-inspired editorial illustrations."
+      }
+    ],
+    "experience": [
+      "Choose a venue, date, showtime, and available seat, then move into its exact modeled eye position.",
+      "Read sightline metrics and open a non-binding summary before the external venue listing."
+    ],
+    "visualDirection": "Brass and charcoal cinema styling with warm oxblood seating and restrained technical overlays."
+  },
+  "thumbnail": {
+    "src": "/_experiences/seatline-kolkata/assets/placeholders/the-salt-crown.svg",
+    "alt": "Local placeholder artwork for Seatline Kolkata showing a brass crown rising from a mythic sea."
+  },
+  "social": {
+    "title": "Seatline Kolkata",
+    "description": "Preview a representative Kolkata cinema seat and its modeled 3D screen sightline.",
+    "image": {
+      "src": "/_experiences/seatline-kolkata/assets/placeholders/the-salt-crown.svg",
+      "alt": "Local placeholder artwork for Seatline Kolkata showing a brass crown rising from a mythic sea.",
+      "width": 1920,
+      "height": 1080,
+      "accent": "#D3AA61"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/seatline-kolkata/index.html",
+    "title": "Seatline Kolkata"
+  }
+}

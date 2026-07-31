@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Quest Mall cinema editorial placeholder</title>
+  <desc id="description">Original illustration of an intimate luxury cinema lounge with brass arches.</desc>
+  <defs>
+    <linearGradient id="room" x2="0" y2="1"><stop stop-color="#301c21"/><stop offset="1" stop-color="#080708"/></linearGradient>
+    <linearGradient id="gold" x2="1"><stop stop-color="#6e4b23"/><stop offset=".5" stop-color="#e0bd74"/><stop offset="1" stop-color="#725029"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".75" numOctaves="2" seed="14"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .09 0"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#room)"/>
+  <ellipse cx="800" cy="50" rx="470" ry="290" fill="#8b5635" opacity=".18"/>
+  <g fill="none" stroke="url(#gold)" stroke-width="18">
+    <path d="M210 730V332a190 190 0 0 1 380 0v398"/>
+    <path d="M610 730V262a190 190 0 0 1 380 0v468"/>
+    <path d="M1010 730V332a190 190 0 0 1 380 0v398"/>
+  </g>
+  <g fill="#0e0d0f">
+    <path d="M238 730V342a162 162 0 0 1 324 0v388Z"/>
+    <path d="M638 730V272a162 162 0 0 1 324 0v458Z"/>
+    <path d="M1038 730V342a162 162 0 0 1 324 0v388Z"/>
+  </g>
+  <g fill="#e6c780">
+    <circle cx="400" cy="228" r="25"/><path d="M400 253v62m-75-5h150" stroke="#e6c780" stroke-width="8"/>
+    <circle cx="800" cy="158" r="25"/><path d="M800 183v62m-75-5h150" stroke="#e6c780" stroke-width="8"/>
+    <circle cx="1200" cy="228" r="25"/><path d="M1200 253v62m-75-5h150" stroke="#e6c780" stroke-width="8"/>
+  </g>
+  <path d="M0 730h1600v170H0Z" fill="#130e10"/>
+  <g fill="#72232d" stroke="#b06a64" stroke-width="5">
+    <path d="M185 812h260l-30-125H215Z"/><path d="M505 812h260l-30-125H535Z"/>
+    <path d="M835 812h260l-30-125H865Z"/><path d="M1155 812h260l-30-125h-200Z"/>
+  </g>
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>

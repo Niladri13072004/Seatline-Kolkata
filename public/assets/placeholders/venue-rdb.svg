@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">RDB Cinemas editorial placeholder</title>
+  <desc id="description">Original night illustration of a compact tiered cinema facade.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#070d18"/><stop offset="1" stop-color="#302430"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#202d3e"/><stop offset=".5" stop-color="#a46c45"/><stop offset="1" stop-color="#111824"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".65" numOctaves="3" seed="8"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .1 0"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g fill="#d7b677" opacity=".66">
+    <circle cx="170" cy="145" r="3"/><circle cx="310" cy="95" r="4"/><circle cx="1360" cy="120" r="3"/><circle cx="1460" cy="255" r="4"/>
+  </g>
+  <path d="M0 720h1600v180H0Z" fill="#07090c"/>
+  <path d="M256 690V188h920l190 132v370Z" fill="#17191f"/>
+  <path d="M256 188h920l190 132H425Z" fill="#4a2027"/>
+  <path d="M425 320h941v370H425Z" fill="url(#glass)"/>
+  <g fill="#1a1c21">
+    <path d="M455 340h92v350h-92Z"/><path d="M638 340h92v350h-92Z"/><path d="M821 340h92v350h-92Z"/><path d="M1004 340h92v350h-92Z"/><path d="M1187 340h92v350h-92Z"/>
+  </g>
+  <path d="M460 565h810" stroke="#e0b96f" stroke-width="8" opacity=".74"/>
+  <g fill="#d3aa61">
+    <circle cx="330" cy="680" r="15"/><rect x="320" y="695" width="20" height="72" rx="10"/>
+    <circle cx="1380" cy="680" r="15"/><rect x="1370" y="695" width="20" height="72" rx="10"/>
+  </g>
+  <path d="M0 790h1600" stroke="#6a4f2e" stroke-width="3"/>
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>

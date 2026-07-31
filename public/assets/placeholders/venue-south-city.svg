@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">South City cinema editorial placeholder</title>
+  <desc id="description">Original editorial illustration of a monumental large-format cinema interior.</desc>
+  <defs>
+    <radialGradient id="room"><stop stop-color="#4e3529"/><stop offset=".55" stop-color="#171317"/><stop offset="1" stop-color="#050607"/></radialGradient>
+    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#edd6aa"/><stop offset="1" stop-color="#8aa2a0"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".7" numOctaves="3" seed="12"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .08 0"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#room)"/>
+  <path d="M0 0 355 165v735H0Zm1600 0-355 165v735h355Z" fill="#09090a"/>
+  <path d="M330 138h940v490H330Z" fill="#111315" stroke="#d3aa61" stroke-width="12"/>
+  <path d="M365 178h870v410H365Z" fill="url(#screen)"/>
+  <circle cx="800" cy="342" r="132" fill="#d3aa61" opacity=".58"/>
+  <path d="m686 445 114-245 114 245-114-50Z" fill="#253d48" opacity=".88"/>
+  <path d="M0 900 190 594h1220l190 306Z" fill="#0a090a"/>
+  <g fill="#69242d" stroke="#aa5e5a" stroke-width="3">
+    <path d="M180 840h145l-22-78H202Z"/><path d="M365 840h145l-22-78H387Z"/><path d="M550 840h145l-22-78H572Z"/><path d="M735 840h145l-22-78H757Z"/>
+    <path d="M920 840h145l-22-78H942Z"/><path d="M1105 840h145l-22-78h-101Z"/><path d="M1290 840h145l-22-78h-101Z"/>
+  </g>
+  <path d="M122 690h1356" stroke="#d3aa61" stroke-opacity=".35" stroke-width="4"/>
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>

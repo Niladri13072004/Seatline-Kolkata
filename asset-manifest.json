@@ -1,0 +1,56 @@
+{
+  "manifestVersion": 1,
+  "totalBytes": 446966980,
+  "assets": [
+    {
+      "path": "public/assets/placeholders/the-salt-crown.svg",
+      "bytes": 3455,
+      "sha256": "990bad182f84c7b7cfd63362ceb084be7913962a17312b59b9bf2184980fcc42"
+    },
+    {
+      "path": "public/assets/placeholders/venue-avani.svg",
+      "bytes": 1895,
+      "sha256": "8f725ed2527316746a730dca6b63ae47d9c2481e7e4983c49cc70fa178604012"
+    },
+    {
+      "path": "public/assets/placeholders/venue-cinepolis-lake.svg",
+      "bytes": 1916,
+      "sha256": "d28938113f6cd269652582e25532edcb81a0929c66dbb996c0310ccaafaea1e3"
+    },
+    {
+      "path": "public/assets/placeholders/venue-nandan.svg",
+      "bytes": 1967,
+      "sha256": "5d923ed3508ababd13f7dad309510fc52a77fcbb9d839e124228a6a2e3186ab2"
+    },
+    {
+      "path": "public/assets/placeholders/venue-quest.svg",
+      "bytes": 2011,
+      "sha256": "b0d60bbf06d61cdce90b8c953775fdea3aab7332d841e5cf1bf8d2558418367d"
+    },
+    {
+      "path": "public/assets/placeholders/venue-rdb.svg",
+      "bytes": 1829,
+      "sha256": "118d1a4bc7b76a6869af7e46e02fd17a51ae0c51df9b7aa71d4c158922c28b76"
+    },
+    {
+      "path": "public/assets/placeholders/venue-south-city.svg",
+      "bytes": 1725,
+      "sha256": "6ae988b86bae230b0cc5df4c49cc71cbc9b213375fd3e87141d9a52c4a515d5c"
+    },
+    {
+      "path": "public/media/dhurandhar-trailer.mp4",
+      "bytes": 135089260,
+      "sha256": "1fb978393d4796958ac615148c0576bd26bf3b6db8a10e15a452626460640668"
+    },
+    {
+      "path": "public/media/ramayana-trailer.mp4",
+      "bytes": 205583802,
+      "sha256": "225419ead79efc30cd22d415bc02fd0f40576b0291d856e1e18b48f3669cc5bd"
+    },
+    {
+      "path": "public/media/spiderman-trailer.mp4",
+      "bytes": 106279120,
+      "sha256": "6dc657b20d4dcb033e1ccf45d03acd0613fc7350a5253e51050c0c90d0d14312"
+    }
+  ]
+}

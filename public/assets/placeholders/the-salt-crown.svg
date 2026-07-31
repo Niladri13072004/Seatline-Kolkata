@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">The Salt Crown placeholder artwork</title>
+  <desc id="description">An original geometric illustration of a brass crown rising from a dark mythic sea.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06101d"/>
+      <stop offset=".58" stop-color="#172d3b"/>
+      <stop offset="1" stop-color="#05090d"/>
+    </linearGradient>
+    <radialGradient id="moon" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f5dfaa"/>
+      <stop offset=".7" stop-color="#c99c51"/>
+      <stop offset="1" stop-color="#6a4825" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f1d18c"/>
+      <stop offset=".45" stop-color="#a77731"/>
+      <stop offset=".72" stop-color="#e6bd6c"/>
+      <stop offset="1" stop-color="#61421f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#183847"/>
+      <stop offset="1" stop-color="#020506"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="11"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .12 0"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <circle cx="960" cy="395" r="310" fill="url(#moon)" opacity=".58"/>
+  <circle cx="960" cy="395" r="134" fill="#e7c987" opacity=".76"/>
+  <circle cx="995" cy="362" r="138" fill="#162c39"/>
+  <path d="M0 654C170 603 271 724 432 678S716 587 881 657s285 75 466 8 345-22 573 32v383H0Z" fill="url(#water)"/>
+  <path d="M0 718c172-62 291 78 467 3s301-59 452 11 295 60 445-9 333 0 556 29" fill="none" stroke="#83a8ad" stroke-opacity=".38" stroke-width="7"/>
+  <path d="M0 806c182-53 302 55 470-3s306-67 464 4 295 56 453-6 334-4 533 31" fill="none" stroke="#b7d3cf" stroke-opacity=".18" stroke-width="4"/>
+  <g filter="url(#glow)" opacity=".32">
+    <ellipse cx="960" cy="681" rx="288" ry="56" fill="#e7bd6d"/>
+  </g>
+  <g transform="translate(960 595)">
+    <path d="M-224 79-273-157-133-37 0-232 133-37 273-157 224 79Z" fill="url(#gold)" stroke="#f5daa2" stroke-width="7"/>
+    <path d="M-224 79h448l-28 103h-392Z" fill="#8b602b" stroke="#e7bd6d" stroke-width="7"/>
+    <circle cx="-270" cy="-158" r="20" fill="#f2d38d"/>
+    <circle cy="-233" r="20" fill="#f2d38d"/>
+    <circle cx="270" cy="-158" r="20" fill="#f2d38d"/>
+    <path d="M-177 102h354" stroke="#f1d18c" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M594 960c137-45 235 29 365 0s250-38 368 0" fill="none" stroke="#d9bc7c" stroke-opacity=".28" stroke-width="3"/>
+  <rect width="1920" height="1080" filter="url(#grain)" opacity=".34"/>
+  <g fill="#ead8b3" text-anchor="middle">
+    <text x="960" y="930" font-family="Georgia,serif" font-size="84" letter-spacing="12">THE SALT CROWN</text>
+    <text x="960" y="988" font-family="Arial,sans-serif" font-size="18" letter-spacing="9" opacity=".72">AN ORIGINAL MYTHIC SEA FEATURE</text>
+  </g>
+  <path d="M70 70h220M1630 70h220M70 1010h220M1630 1010h220" stroke="#d2aa62" stroke-width="2" opacity=".55"/>
+</svg>

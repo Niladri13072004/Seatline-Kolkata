@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Lake Mall cinema editorial placeholder</title>
+  <desc id="description">Original illustration of a premium wide cinema overlooking dark water.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#07131c"/><stop offset=".62" stop-color="#243c45"/><stop offset="1" stop-color="#85523e"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#17303d"/><stop offset=".5" stop-color="#d3a05d"/><stop offset="1" stop-color="#14222b"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".76" numOctaves="2" seed="31"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .09 0"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g fill="#e8ce91" opacity=".72">
+    <circle cx="180" cy="125" r="3"/><circle cx="440" cy="92" r="4"/><circle cx="1290" cy="122" r="3"/><circle cx="1450" cy="215" r="4"/>
+  </g>
+  <path d="M0 690h1600v210H0Z" fill="#091217"/>
+  <path d="M180 665V245h1110l145 118v302Z" fill="#16191b"/>
+  <path d="M180 245h1110l145 118H380Z" fill="#61232d"/>
+  <path d="M380 363h1055v302H380Z" fill="url(#glass)"/>
+  <g fill="#0d151a" opacity=".82">
+    <rect x="425" y="394" width="188" height="271"/><rect x="660" y="394" width="188" height="271"/>
+    <rect x="895" y="394" width="188" height="271"/><rect x="1130" y="394" width="188" height="271"/>
+  </g>
+  <path d="M425 570h893" stroke="#e1b86d" stroke-width="8"/>
+  <path d="M0 747c245-56 419 37 645 0s412-37 608 1 285 18 347 1" fill="none" stroke="#a1c1c0" stroke-opacity=".38" stroke-width="5"/>
+  <path d="M0 823c248-41 420 25 645 0s414-28 610 0 281 13 345 1" fill="none" stroke="#d3aa61" stroke-opacity=".23" stroke-width="3"/>
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>
