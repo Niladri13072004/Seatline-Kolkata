@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 5194",
     "build": "next build",
+    "build:cloudflare": "pnpm build && node scripts/prepare-cloudflare-assets.mjs",
     "test": "node scripts/build-asset-manifest.mjs && node --test tests/*.test.ts",
     "assets:manifest": "node scripts/build-asset-manifest.mjs"
   },
