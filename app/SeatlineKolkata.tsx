@@ -11,6 +11,11 @@ import {
   type KeyboardEvent,
 } from "react";
 import TheaterPreview, { type CameraMode } from "./TheaterPreview";
+import SeatlineWebMcpRegistrar from "./webmcp/SeatlineWebMcpRegistrar";
+import type {
+  SeatlineContext,
+  SeatlineWebMcpBridge,
+} from "./webmcp/seatlineTools";
 import {
   getMintArtifactUrl,
   PLACEHOLDER_ASSETS_ACTIVE,
@@ -73,6 +78,37 @@ export default function SeatlineKolkata() {
   const date = dates.find((candidate) => candidate.id === dateId) ?? dates[0];
   const metrics = measureSightline(venue, selectedSeat, seats);
   const posterUrl = getMintArtifactUrl(POSTER_ASSET_KEY);
+  const webMcpContextRef = useRef<SeatlineContext | null>(null);
+  webMcpContextRef.current = {
+    venueId: venue.id,
+    dateId,
+    showtimeId: showtime.id,
+    selectedSeatId: selectedSeat.id,
+    cameraMode,
+    summaryOpen,
+  };
+  const webMcpBridge = useMemo<SeatlineWebMcpBridge>(
+    () => ({
+      getContext() {
+        if (!webMcpContextRef.current) {
+          throw new Error("Seatline context is not ready yet.");
+        }
+        return webMcpContextRef.current;
+      },
+      applySelection(selection) {
+        setVenueId(selection.venueId);
+        setDateId(selection.dateId);
+        setShowtimeId(selection.showtimeId);
+        setSelectedSeatId(selection.seatId);
+        setCameraMode("seated");
+        setSummaryOpen(false);
+      },
+      openSummary() {
+        setSummaryOpen(true);
+      },
+    }),
+    [],
+  );
 
   useEffect(() => {
     const refreshDates = () => {
@@ -180,6 +216,7 @@ export default function SeatlineKolkata() {
 
   return (
     <>
+      <SeatlineWebMcpRegistrar bridge={webMcpBridge} />
       <div
         className={`film-intro ${introVisible ? "is-visible" : ""}`}
         aria-hidden={!introVisible}
@@ -525,7 +562,7 @@ export default function SeatlineKolkata() {
         <span className="dialog-kicker">NON-BINDING PREVIEW</span>
         <h2>Your Seatline</h2>
         <p className="dialog-lede">
-          Review modeled view before opening venue listing.
+          Review the modeled view for this seat preview.
         </p>
         <div className="ticket-rule" />
         <dl className="summary-list">
@@ -574,17 +611,16 @@ export default function SeatlineKolkata() {
         <p className="dialog-disclaimer">
           Preview data, price, room geometry, and availability are
           representative. Actual inventory, fees, format, accessibility, and
-          booking terms come from venue listing.
+          booking terms are not provided by Seatline.
         </p>
-        <a
+        <button
           className="listing-link"
-          href={venue.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
+          type="button"
+          onClick={() => setSummaryOpen(false)}
         >
-          Open live venue listing
-          <span aria-hidden="true">↗</span>
-        </a>
+          Back to preview
+          <span aria-hidden="true">→</span>
+        </button>
       </dialog>
     </>
   );

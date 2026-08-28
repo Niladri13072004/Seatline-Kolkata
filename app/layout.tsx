@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Seatline Kolkata — Measured Cinema Sightlines",
   description:
-    "Choose a Kolkata cinema, showtime, and seat, then inspect its modeled 3D sightline before opening the live venue listing.",
+    "Choose a Kolkata cinema, showtime, and seat, then inspect its modeled 3D sightline in a non-binding preview.",
 };
 
 export default function RootLayout({

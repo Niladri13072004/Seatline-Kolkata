@@ -2,15 +2,15 @@
 
 An original Kolkata-area cinema seat-preview experience with a measured Three.js sightline model.
 
-Choose one of six venue profiles, a rolling Kolkata date, representative showtime, and available seat. The 3D camera moves to the modeled eye point, reports screen distance, horizontal offset, elevation, angular width, and forward-row clearance, then opens a non-binding summary before the external venue listing.
+Choose one of six venue profiles, a rolling Kolkata date, representative showtime, and available seat. The 3D camera moves to the modeled eye point, reports screen distance, horizontal offset, elevation, angular width, and forward-row clearance, then opens a non-binding summary. Seatline is a preview experience; it does not reserve seats or process payment.
 
 ## Run locally
 
-From the `mint-playground` repository root:
+From this repository root:
 
 ```bash
-npx pnpm@10.6.2 install
-npx pnpm@10.6.2 --dir experiences/seatline-kolkata dev
+pnpm install
+pnpm dev
 ```
 
 The local route is `http://127.0.0.1:5194/_experiences/seatline-kolkata/`.
@@ -18,9 +18,15 @@ The local route is `http://127.0.0.1:5194/_experiences/seatline-kolkata/`.
 ## Verify
 
 ```bash
-npx pnpm@10.6.2 --dir experiences/seatline-kolkata test
-npx pnpm@10.6.2 --dir experiences/seatline-kolkata build
+pnpm test
+pnpm build
 ```
+
+## WebMCP
+
+The client exposes five WebMCP tools through `@nekuda/webmcp-sdk`: `ask_site`, `search_venues`, `inspect_seats`, `select_preview`, and `review_summary`. They use the same venue, seat, and sightline data as the visible interface, so an agent can discover and preview a seat without scraping the page. Registration is client-scoped and telemetry is disabled for this experience. There is no booking, payment, or external cinema handoff.
+
+This build is guest-first. Google sign-in is intentionally left as a configuration-dependent follow-up until an OAuth client and secure session layer are supplied; WebMCP seat discovery and preview do not require an account.
 
 ## Asset status
 
@@ -35,4 +41,4 @@ Mint handoff:
 
 ## Data disclaimer
 
-Venue geometry, seat availability, showtimes, and prices are representative preview data. Editorial images are not documentary photography or architectural replicas. Actual inventory, fees, accessibility, formats, and purchase terms come from each venue listing.
+Venue geometry, seat availability, showtimes, and prices are representative preview data. Editorial images are not documentary photography or architectural replicas. Seatline does not claim live inventory or create a reservation; users should verify any eventual purchase details with their chosen cinema separately.
